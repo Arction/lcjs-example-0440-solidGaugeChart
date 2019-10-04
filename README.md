@@ -66,8 +66,8 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 [3]: https://stackoverflow.com/questions/tagged/lightningchart
 [4]: https://www.arction.com/support-services/
 
-[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#colorrgba
-[GaugeChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/globals.html#gaugecharttypes
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidfill.html
-[SolidGauge]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidgauge.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.0.1/classes/solidline.html
+[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#colorrgba
+[GaugeChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/globals.html#gaugecharttypes
+[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidfill.html
+[SolidGauge]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidgauge.html
+[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.1.0/classes/solidline.html
