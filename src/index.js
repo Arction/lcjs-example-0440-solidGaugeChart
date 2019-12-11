@@ -1,4 +1,4 @@
-/**
+/*
  * LightningChartJS example that showcases creation and styling of radial-gauge.
  */
 // Import LightningChartJS
