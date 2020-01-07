@@ -18,7 +18,7 @@ const {
 const gauge = lightningChart().Gauge({ type: GaugeChartTypes.Solid })
     .setTitle('Annual sales goal')
     .setThickness(80)
-    .setDataLabelFormater(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }))
+    .setDataLabelFormatter(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }))
     .setGaugeStrokeStyle(new SolidLine().setFillStyle(new SolidFill()).setThickness(1))
     .setAngleInterval(225, -45)
 
