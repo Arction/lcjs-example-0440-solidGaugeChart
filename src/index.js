@@ -11,7 +11,7 @@ const {
     SolidLine,
     SolidFill,
     ColorRGBA,
-    UIOrigins 
+    UIOrigins
 } = lcjs
 
 // Initialize gauge
@@ -32,9 +32,9 @@ const slice = gauge
 
 // Add LegendBox and define the position in the chart
 const legend = gauge.addLegendBox()
-.setPosition({ x: 0, y: 0 })
-.setOrigin(UIOrigins.LeftBottom)
-.setMargin({ top: 5, right: 5, bottom: 5, left: 5 })
+    .setPosition({ x: 0, y: 0 })
+    .setOrigin(UIOrigins.LeftBottom)
+    .setMargin({ top: 5, right: 5, bottom: 5, left: 5 })
 
 // Add gaugeChart to LegendBox
 legend.add(gauge)
