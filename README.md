@@ -32,7 +32,8 @@ After creating the Gauge Chart the value for it can be set simply.
 
 ```javascript
 gauge
-    // Get default slice, this is the only slice there is and it should be manipulated to set wanted value to the Gauge Chart.
+    // Get default slice, this is the only slice there is and
+    // it should be manipulated to set wanted value to the Gauge Chart.
     .getDefaultSlice()
     // Set start and end values.
     .setInterval(0, 400000)
