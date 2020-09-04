@@ -44,11 +44,11 @@ gauge
 
 ## API Links
 
-* Gauge chart types: [GaugeChartTypes]
-* RGBA color factory: [ColorRGBA]
-* Solid gauge: [SolidGauge]
-* Solid LineStyle: [SolidLine]
-* Solid FillStyle: [SolidFill]
+* [Gauge chart types]
+* [RGBA color factory]
+* [Solid gauge]
+* [Solid LineStyle]
+* [Solid FillStyle]
 
 
 ## Support
@@ -72,9 +72,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © Arction Ltd 2009-2020. All rights reserved.
 
 
-[GaugeChartTypes]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#gaugecharttypes
-[ColorRGBA]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/globals.html#colorrgba
-[SolidGauge]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidgauge.html
-[SolidLine]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidline.html
-[SolidFill]: https://www.arction.com/lightningchart-js-api-documentation/v1.3.0/classes/solidfill.html
+[Gauge chart types]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#gaugecharttypes
+[RGBA color factory]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/globals.html#colorrgba
+[Solid gauge]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidgauge.html
+[Solid LineStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidline.html
+[Solid FillStyle]: https://www.arction.com/lightningchart-js-api-documentation/v2.0.0/classes/solidfill.html
 

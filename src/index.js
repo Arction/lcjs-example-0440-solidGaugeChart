@@ -11,11 +11,15 @@ const {
     SolidLine,
     SolidFill,
     ColorRGBA,
-    UIOrigins
+    UIOrigins,
+    Themes
 } = lcjs
 
 // Initialize gauge
-const gauge = lightningChart().Gauge({ type: GaugeChartTypes.Solid })
+const gauge = lightningChart().Gauge({
+    // theme: Themes.dark 
+    type: GaugeChartTypes.Solid
+})
     .setTitle('Annual sales goal')
     .setThickness(80)
     .setDataLabelFormatter(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }))
