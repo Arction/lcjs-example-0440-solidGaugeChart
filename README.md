@@ -1,6 +1,6 @@
-# Solid Gauge
+# JavaScript Solid Gauge Chart
 
-![Solid Gauge](solidGauge.png)
+![JavaScript Solid Gauge Chart](solidGauge.png)
 
 This demo application belongs to the set of examples for LightningChart JS, data visualization library for JavaScript.
 
