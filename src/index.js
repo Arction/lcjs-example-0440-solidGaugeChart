@@ -17,7 +17,7 @@ const {
 
 // Initialize gauge
 const gauge = lightningChart().Gauge({
-    // theme: Themes.dark 
+    // theme: Themes.darkGold 
     type: GaugeChartTypes.Solid
 })
     .setTitle('Annual sales goal')
@@ -36,6 +36,11 @@ const slice = gauge
 
 // Add LegendBox and define the position in the chart
 const legend = gauge.addLegendBox()
+    // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
+    .setAutoDispose({
+        type: 'max-width',
+        maxWidth: 0.30,
+    })
 
 // Add gaugeChart to LegendBox
 legend.add(gauge)
