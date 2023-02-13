@@ -5,25 +5,17 @@
 const lcjs = require('@arction/lcjs')
 
 // Extract required parts from LightningChartJS.
-const {
-    lightningChart,
-    GaugeChartTypes,
-    SolidLine,
-    SolidFill,
-    ColorRGBA,
-    UIOrigins,
-    Themes
-} = lcjs
+const { lightningChart, GaugeChartTypes, Themes } = lcjs
 
 // Initialize gauge
-const gauge = lightningChart().Gauge({
-    // theme: Themes.darkGold 
-    type: GaugeChartTypes.Solid
-})
+const gauge = lightningChart()
+    .Gauge({
+        // theme: Themes.darkGold
+        type: GaugeChartTypes.Solid,
+    })
     .setTitle('Annual sales goal')
     .setThickness(80)
     .setDataLabelFormatter(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }))
-    .setGaugeStrokeStyle(new SolidLine().setFillStyle(new SolidFill()).setThickness(1))
     .setAngleInterval(225, -45)
 
 // Create slice
@@ -35,11 +27,12 @@ const slice = gauge
     .setName('2019 sales')
 
 // Add LegendBox and define the position in the chart
-const legend = gauge.addLegendBox()
+const legend = gauge
+    .addLegendBox()
     // Dispose example UI elements automatically if they take too much space. This is to avoid bad UI on mobile / etc. devices.
     .setAutoDispose({
         type: 'max-width',
-        maxWidth: 0.30,
+        maxWidth: 0.3,
     })
 
 // Add gaugeChart to LegendBox
