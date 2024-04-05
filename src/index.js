@@ -8,7 +8,9 @@ const lcjs = require('@arction/lcjs')
 const { lightningChart, GaugeChartTypes, Themes } = lcjs
 
 // Initialize gauge
-const gauge = lightningChart()
+const gauge = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        })
     .Gauge({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: GaugeChartTypes.Solid,
