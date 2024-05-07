@@ -72,9 +72,9 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Gauge chart types]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/GaugeChartTypes-1.html
-[RGBA color factory]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/functions/ColorRGBA.html
-[Solid gauge]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidGauge.html
-[Solid LineStyle]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidLine.html
-[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/SolidFill.html
+[Gauge chart types]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/variables/GaugeChartTypes-1.html
+[RGBA color factory]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/functions/ColorRGBA.html
+[Solid gauge]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/SolidGauge.html
+[Solid LineStyle]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/SolidLine.html
+[Solid FillStyle]: https://lightningchart.com/js-charts/api-documentation/v5.2.0/classes/SolidFill.html
 
